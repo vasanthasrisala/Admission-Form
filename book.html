@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+
+<body style="background-color: lightblue;">
+
+    <form id="myyform" action="/submit" method="post">
+
+        <label for="genderoption">Gender</label>
+
+        <select id="genderoption" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="transgender">Transgender</option>
+        </select>
+
+        <br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age">
+
+        <br><br>
+
+        <label for="seattype">Seat Type</label>
+
+        <select id="seattype" name="seattype">
+            <option value="jee">JEE</option>
+            <option value="reservation">Reservation</option>
+        </select>
+
+        <br><br>
+
+        <input type="submit" value="Send">
+
+    </form>
+
+    <script src="code.js"></script>
+
+</body>
+
+</html>
